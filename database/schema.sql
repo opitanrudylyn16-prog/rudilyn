@@ -255,6 +255,6 @@ INSERT INTO leave_types (leave_name, days_allowed, is_paid) VALUES
 ('Unpaid Leave', 10, 0),
 ('Maternity Leave', 180, 1);
 
--- Insert Admin User
+-- Insert Admin User (Password: Admin@123 - bcrypt hashed)
 INSERT INTO users (username, email, password_hash, role, is_active) VALUES
-('admin', 'admin@employeemgmt.com', '$2y$10$YourHashedPasswordHere', 'admin', 1);
+('admin', 'admin@employeemgmt.com', '$2y$10$8L/hI.9CQ5PGfO5qo9Y0zuQU0XGzxu5L8j5dJX8L0xNE3L6dXJTVa', 'admin', 1);
